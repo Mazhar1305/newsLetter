@@ -1,9 +1,111 @@
+.form-main{
+  background: #ffffff;
+  width: 60%;
+  margin: auto;
+  border-radius: 10px;
+  
+ padding: 50px;
+
+
+
+}
+.main{
+  background-color: rgba(128, 128, 128, 0.68);
+  padding-top: 70px;
+  height: 100vh;
+}
+
+input{
+  border-radius: 5px;
+  padding: 10px 0px;
+}
+
+.form-container{
+  /* text-align: center; */
+
+
+
+}
+
+.lab{
+  display: flex;
+  flex-direction: column;
+  
+
+}
+.lab input {
+  margin-top: 5px;
+  padding-left: 10px;
+  border-radius: 10px;
+  border: solid 1px;
+}
+
+.labEmail{
+  margin-top: 15px;
+
+}
+
+button{
+  margin-top: 20px;
+  border: none;
+ background: #D04848;
+  padding:10px  40px;
+  width: 100%;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+button:hover{
+  background: #d04848da;
+
+}
+
+
+@media (max-width:600px){
+  .form-main{
+    background: #ffffff;
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+  
+   padding: 50px;
+  
+  
+  
+  }
+  
+}
+  
+
+@media  (max-width: 1024px) and (min-width: 601px) {
+  .form-main{
+    background: #ffffff;
+    width: 60%;
+    margin: auto;
+    border-radius: 10px;
+  
+   padding: 50px;
+
+
+  
+  
+  }
+  
+  .main{
+    height: 100vh;
+  }
+  
+}
+
+
+/* 
+
 
 .main{
    margin: auto;
-  width: 20%; 
-  margin-top: 200px;
-}
+   width: 90%;
+
+} */
 
 .card {
   width: 290px;

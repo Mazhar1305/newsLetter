@@ -52,7 +52,7 @@ app.post("/",function(req,res){
     })
   })
 
-  // request.write(dataJson);
+  request.write(dataJson);
   request.end();
 
 
@@ -69,9 +69,7 @@ app.post("/failure",function(req,res){
 
 
 
-
-
-app.listen(process.env.PORT || 3000,function(){
+app.listen(3000,function(){
   console.log("server is started on port 3000");
 });
 
